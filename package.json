@@ -2,6 +2,7 @@
   "name": "react-sandbox",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AlexBNelson.github.io",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.18.0",
@@ -16,6 +17,8 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
     "redux": "^4.0.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "superagent": "^3.8.3"
   },
   "scripts": {
